@@ -2,7 +2,6 @@ class ProjectMan:
 
     def start_logger(self):
         from ..common.logger import start
-        from logging import getLogger
 
         name = self.__class__.__name__
         log = start(name=name, level='debug')
